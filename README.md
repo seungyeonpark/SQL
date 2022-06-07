@@ -23,3 +23,9 @@
 ### Sum, Max, Min
 - COUNT(DISTINCT 컬럼)
     - 컬럼 값의 중복을 제거하고, 컬럼 값 건수를 반환
+### Join
+- Oracle에서 빈 문자열('')은 NULL로 인식한다
+- NULL은 비교 연산자를 사용할 수 없다
+    - column IS NULL
+    - column IN NOT NULL
+- ROWNUM은 인라인 뷰와 함께 사용
